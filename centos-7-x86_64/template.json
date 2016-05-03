@@ -45,11 +45,7 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "override": {
-        "virtualbox": {
-          "output": "centos-7-x86_64.box"
-        }
-      }
+      "output": "centos-7-x86_64.box"
     }
   ]
 }
