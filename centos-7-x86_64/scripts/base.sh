@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Base installation
+yum -y update
 yum -y install gcc make gcc-c++ kernel-devel-`uname -r` perl
 
 # Add SSH key for user
